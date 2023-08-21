@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document2</title>
+    <link rel="stylesheet" href="forms.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <h1>Registration Form</h1>
+            <form action="submission.html" method="GET">
+            <div>
+                <label for="first name">First Name:</label>
+                <input type="text" name="first name" id="first name" placeholder="Enter first name" required>
+            </div>
+            <div>
+                <label for="lastt name">Last Name:</label>
+                <input type="text" name="last name" id="lastt name" placeholder="Enter last name"required>
+            </div>
+                <div>
+                <label for="gender"> Gender:</label>
+                <label>Male  &nbsp;<input type="radio" name="gender" id="male" value="Male" required> </label>&nbsp;
+                <label>Female &nbsp; <input type="radio" name="gender" id="female" value="Female" required> </label>
+            </div>
+            <div>
+                <label for=""> Date Of Birth:</label>
+                <input type="date" name="date of birth" required>
+            </div>
+            <div>
+                <label for="education"> Education:</label>
+                <select name="education" id="education" required>
+                    <option value="degree">Degree</option>
+                    <option value="B.tech">B.tech</option>
+                    <option value="degree">Engineering</option>
+                    <option value="degree">Civils</option>
+                </select>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div>
+                <input type="submit" name="submit" id="submit">
+            </div>
+    
+        </form>
+    </div> 
+</div>
+</body>
+</html>
